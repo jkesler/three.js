@@ -20768,7 +20768,7 @@
 
   function WebGLRenderer( parameters ) {
 
-    console.log( 'THREE.WebGLRenderer', REVISION );
+    // console.log( 'THREE.WebGLRenderer', REVISION );
 
     parameters = parameters || {};
 
@@ -44520,7 +44520,7 @@
     shadowDarkness: {
       set: function () {
 
-        console.warn( 'THREE.Light: .shadowDarkness has been removed.' );
+        // console.warn( 'THREE.Light: .shadowDarkness has been removed.' );
 
       }
     },
